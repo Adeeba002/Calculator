@@ -64,4 +64,14 @@ input#equal{
     background: #ff3d00;
     border: 1px solid #b32a00;
 }
+.calculator {
+  width: 90vw; /* 90% of the viewport width */
+  max-width: 400px; /* Ensure it doesn't exceed this width */
+  margin: 0 auto; /* Center the calculator */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the element’s total width */
+}
+.calculator {
+  transform: none; /* Ensure no scaling is applied */
+}
 
